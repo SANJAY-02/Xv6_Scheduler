@@ -1,5 +1,4 @@
 # Xv6_Scheduler
- Enhanced Xv6 Scheduling Policy
      Xv6 operating system provides a very basic set of
 limited system calls and have a scheduling algorithm which is
 not suitable for real time operating systems. Users can use only
@@ -16,3 +15,4 @@ itself has starvation drawback. Addition of some useful system
 calls enables us to implement our proposed algorithm efficiently.
 The proposed algorithm overcomes the drawbacks of both round
 robin and priority and also inherits their advantages.
+
