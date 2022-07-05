@@ -3,7 +3,7 @@
 limited system calls and have a scheduling algorithm which is
 not suitable for real time operating systems. Users can use only
 those limited system calls and also the scheduling algorithm
-which schedules the **CPU is not efficient enough.** Every user
+which schedules the **CPU which is not efficient enough.** Every user
 will definitely want an efficient scheduler for processing, but
 definitely not the default scheduler in Xv6. **The default scheduling
 algorithm is Round Robin** in Xv6 which has high response time,
@@ -20,6 +20,6 @@ robin and priority** and also inherits their advantages.
 
 •	Round robin allocates time slices to each process in a cyclic manner and stops starvation.
 
-•	Priority based scheduling may cause starvation because high priority (low number) processes will given be given preference over low priority (high number) processes.
+•	Priority based scheduling may cause starvation because high priority (low number) processes will be given preference over low priority (high number) processes.
 
-•	With same priority proesses, Round robin scheduler is used.
+•	With same priority processes, Round robin scheduler is used.
